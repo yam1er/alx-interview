@@ -11,7 +11,7 @@ def canUnlockAll(boxes):
     Determines if all boxes can be opened.
 
     Parameters:
-    boxes (list of lists): A list where each index contains keys to other boxes.
+    boxes (list of lists): A list where each index contains keys to other boxes
 
     Returns:
     bool: True if all boxes can be opened, False otherwise.
@@ -32,4 +32,3 @@ def canUnlockAll(boxes):
                     keys.append(k)
 
     return all(opened)
-
